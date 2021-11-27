@@ -471,4 +471,25 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: lightcoral;
+}
+
+footer a {
+    color: lightblue;
+    text-decoration-line: none;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration-line: underline dashed;
+    transition: 0.25s all;    
+}
+
+footer a:active {
+    color: red;
+    text-decoration-line: underline dashed;
+}
+
+footer a:visited {
+    color: red;
 }
