@@ -1,0 +1,474 @@
+body {
+    margin: 0;
+    background-color: hsl(26, 100%, 99%);
+    width: 100vw;
+}
+
+section {
+    width: inherit;
+}
+
+section#section-01 {
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: 100vw 55.556vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 55.556vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: min-content;
+    margin: 0;
+    border: 0;
+    padding: 2.78vw;
+}
+
+nav div#left-menu {
+    display: flex;
+}
+
+nav div#left-menu img {
+    width: 11.875vw;
+    height: 2.25vw;
+}
+
+nav div#right-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+}
+
+button {
+    width: min-content;
+    padding: 1.25vw 2vw;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    border: 0;
+    border-radius: 2vw;
+
+    background-color: inherit;
+    color: hsl(0, 0%, 100%);
+
+    font-family: "Barlow", sans-serif;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+nav div#right-menu button#right-menu-item-04 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", serif;
+    font-size: 1.1111vw;
+}
+
+nav div#right-menu button:hover {
+    background-color: hsl(200, 100%, 72%);
+    color: white;
+    transition: 0.25s all;
+}
+
+nav div#right-menu button#right-menu-item-04:hover {
+    background-color: hsl(200, 100%, 72%);
+    color: white;
+    transition: 0.25s all;
+}
+
+section#section-01 h1 {
+    font-family: "Fraunces", serif;
+    font-size: 3.75vw;
+    font-weight: 900;
+    letter-spacing: 0.6vw;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+section#section-01 div#img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    color: hsl(0, 0%, 100%);
+    width: 3vw;
+    margin: auto;
+    padding: 3.25vw;
+}
+
+section#section-01 img#img-arrow {
+    height: 8.25vw;
+    width: 2.6389vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section#section-02 {
+    display: flex;
+    height: 41.667vw;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    justify-content: space-between;
+}
+
+section#section-02 div#sec02-left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: inherit;
+    padding: 11.1vw;
+    padding-top: 9.75vw;
+}
+
+h2 {
+    font-family: "Fraunces", serif;
+    font-size: 2.6vw;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 3.333vw;
+}
+
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Barlow", sans-serif;
+    line-height: 2vw;
+}
+
+section#section-02 div#sec02-left p#sec02-p {
+    color: hsl(249, 3%, 53%);
+    font-size: 1.075vw;
+    font-weight: 600;
+}
+
+section#section-02 div#sec02-left a#sec02-link {
+    width: max-content;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", serif;
+    font-size: 1.075vw;
+    font-weight: 900;
+    margin-top: 3.5vw;
+    margin-left: 0;
+    text-decoration: none;
+    box-shadow: inset 0 -0.2vw 0.3vw 0 hsl(49, 100%, 82%), 0 0.2vw 0.3vw 0 hsl(49, 100%, 82%);
+    overflow: hidden;
+}
+
+section#section-02 div#sec02-left a#sec02-link:hover {
+    text-decoration: none;
+    box-shadow: inset 0 -0.2vw 0.3vw 0 hsl(50, 99%, 50%), 0 0.2vw 0.3vw 0 hsl(50, 99%, 50%);
+    overflow: hidden;
+    transition: 0.25s all ease;
+}
+
+section#section-02 div#sec02-right {
+    display: flex;
+    width: 50vw;
+    height: inherit;
+}
+
+section#section-02 div#sec02-right img#img-egg {
+    height: inherit;
+    max-height: inherit;
+    max-width: inherit;
+}
+
+section#section-03 {
+    display: flex;
+    height: 41.667vw;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    justify-content: space-between;
+}
+
+section#section-03 div#sec03-left {
+    display: flex;
+    width: 50vw;
+    height: inherit;
+}
+
+section#section-03 div#sec03-left img#img-cup {
+    width: inherit;
+    height: inherit;
+    max-height: inherit;
+    max-width: inherit;
+}
+
+section#section-03 div#sec03-right {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: inherit;
+    padding: 11.1vw;
+    padding-top: 9.75vw;
+}
+
+section#section-03 div#sec03-right h2 {
+    font-size: 2.5vw;
+}
+
+section#section-03 div#sec03-right p#sec03-p {
+    color: hsl(249, 3%, 53%);
+    font-size: 1.15vw;
+    font-weight: 600;
+}
+
+section#section-03 div#sec03-right a#sec03-link {
+    width: max-content;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", serif;
+    font-size: 1.075vw;
+    font-weight: 900;
+    margin-top: 3.5vw;
+    margin-left: 0;
+    text-decoration: none;
+    box-shadow: inset 0 -0.2vw 0.3vw 0 hsl(12, 100%, 91%), 0 0.2vw 0.3vw 0 hsl(12, 100%, 91%);
+    overflow: hidden;
+}
+
+section#section-03 div#sec03-right a#sec03-link:hover {
+    text-decoration: none;
+    box-shadow: inset 0 -0.2vw 0.3vw 0 hsl(7, 99%, 69%), 0 0.2vw 0.3vw 0 hsl(7, 99%, 69%);
+    overflow: hidden;
+    transition: 0.25s all ease;
+}
+
+section#section-04 {
+    display: flex;
+    height: 41.667vw;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    justify-content: space-between;
+}
+
+section#section-04 div#sec04-left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: inherit;
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-size: 50vw 41.667vw;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+section#section-04 div#sec04-left h3 {
+    color: hsl(167, 40%, 24%);
+    margin-left: 17.36vw;
+    margin-top: 28.125vw;
+    font-weight: 900;
+}
+
+section#section-04 div#sec04-left p#sec04-p-left{
+    color: hsl(165, 36%, 33%);
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin-left: 13.75vw;
+    margin-right: 13.75vw;
+    text-align: center;
+}
+
+section#section-04 div#sec04-right {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: inherit;
+    background-image: url(images/desktop/image-photography.jpg);
+    background-size: 50vw 41.667vw;
+    background-repeat: no-repeat;
+}
+
+section#section-04 div#sec04-right p#sec04-p-right{
+    color: hsl(198, 85%, 26%);
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin-left: 13.75vw;
+    margin-right: 13.75vw;
+    text-align: center;
+}
+
+section#section-04 div#sec04-right h3 {
+    color: hsl(198, 62%, 26%);
+    margin-left: 17.36vw;
+    margin-top: 28.125vw;
+    font-weight: 900;
+}
+
+section#section-05 {
+    height: 54.01234567vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+    font-size: 1.45vw;
+}
+
+section#section-05 h4 {
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 0.5vw;
+    text-align: center;
+    margin-top: 11.458333vw;
+    margin-bottom: 5.902778vw;
+}
+
+section#section-05 div#testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: inherit;
+    padding-left: 11.458333vw;
+    padding-right: 11.458333vw;
+}
+
+section#section-05 div#testimonials div {
+    width: 23vw;
+    text-align: center;
+}
+
+section#section-05 div#testimonials img {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2.5vw;
+    margin: 0;
+    margin-bottom: 4.1vw;
+}
+
+section#section-05 div#testimonials p {
+    color: hsl(213, 9%, 39%);
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: 2.3vw;
+}
+
+h5 {
+    font-family: "Fraunces", serif;
+    font-weight: 800;
+    font-size: 1.25vw;
+}
+
+section#section-05 div#testimonials h5 {
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 0;
+    margin-top: 5.76vw;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-top: 0.75vw;
+    margin-bottom: 0;
+    padding: 0;
+    color: hsl(210, 4%, 67%);
+}
+
+section#section-06 {
+    height: 31.1111vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section#section-06 img {
+    width: 25vw;
+    height: inherit;
+}
+
+section#section-07 {
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: hsl(167, 44%, 70%);
+}
+
+section#section-07 img {
+    fill: hsl(167, 40%, 24%);
+    filter: brightness(0) saturate(100%) invert(43%) sepia(24%) saturate(856%) hue-rotate(118deg) brightness(91%) contrast(87%);
+}
+
+section#section-07 img#sec07-logo {
+    width: 12.5vw;
+    height: 2.43056vw;
+    align-self: center;
+    margin-top: 5.556vw;
+    margin-bottom: 1.125vw;
+}
+
+section#section-07 div#sec07-buttons {
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+section#section-07 div#sec07-buttons button{
+    color: hsl(167, 30%, 45%);
+    font-weight: 600;
+}
+
+section#section-07 div#sec07-buttons button:hover {
+    transition: 0.25s all;
+    color: hsl(0, 0%, 100%);
+}
+
+section#section-07 div#sec07-socials {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    margin-top: 4.167vw;
+}
+
+section#section-07 div#sec07-socials img {
+    width: 1.4236vw;
+    height: 1.4236vw;
+    margin: 0.75vw;
+}
+
+section#section-07 div#sec07-socials img:hover {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(5226%) hue-rotate(211deg) brightness(100%) contrast(110%);
+    fill: none;
+}
+
+section#section-07 div#sec07-socials a:hover {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(5226%) hue-rotate(211deg) brightness(100%) contrast(110%);
+}
+
+footer {
+    width: inherit;
+    background-color: inherit;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

@@ -3,64 +3,127 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
-        <link rel="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="script" href="index.js">
         <title>Frontend Mentor | Sunnyside agency landing page</title>
     </head>
 
     <body>
-        About
-        Services
-        Projects
-        Contact
+        <section id="section-01">
+            <nav>
+                <div id="left-menu">
+                    <img src="images/logo.svg">
+                </div>
 
-        We are creatives
+                <div id="right-menu">
+                    <button id="right-menu-item-01">About</button>
+                    <button id="right-menu-item-02">Services</button>
+                    <button id="right-menu-item-03">Projects</button>
+                    <button id="right-menu-item-04">CONTACT</button>
+                </div>
+            </nav>
 
-        Transform your brand
+            <h1>WE ARE CREATIVES</h1>
 
-        We are a full-service creative agency specializing in helping brands grow fast. 
-        Engage your clients through compelling visuals that do most of the marketing for you.
+            <div id="img-container">
+                <img src="images/icon-arrow-down.svg" id="img-arrow">
+            </div>
+        </section>
 
-        Learn more
+        <section id="section-02">
+            <div id="sec02-left">
+                <h2>Transform your brand</h2>
+                <p id="sec02-p">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                <a href="#" id="sec02-link">LEARN MORE</a>
+            </div>
 
-        Stand out to the right audience
+            <div id="sec02-right">
+                <img id="img-egg" src="images/desktop/image-transform.jpg">
+            </div>
+        </section>
 
-        Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        <section id="section-03">
+            <div id="sec03-left">
+                <img id="img-cup" src="images/desktop/image-stand-out.jpg">
+            </div>
+            
+            <div id="sec03-right">
+                    <h2>Stand out to the right audience</h2>
+                    <p id="sec03-p">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                    <a href="#" id="sec03-link">LEARN MORE</a>
+            </div>
+        </section>
 
-        Learn more
+        <section id="section-04">
+            <div id="sec04-left">
+                <h3>Graphic Design</h3>
+                <p id="sec04-p-left">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+            </div>
 
-        Graphic design
-        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            <div id="sec04-right">
+                <h3>Photography</h3>
+                <p id="sec04-p-right">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+        </section>
+        
+        <section id="section-05">
+            <h4>CLIENT TESTIMONIALS</h4>
 
-        Photography
-        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+            <div id="testimonials">
+                <div id="testimonial-01">
+                    <img id="t01-img-emily" src="images/image-emily.jpg">
+                    <p id="t01-p-emily">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                    <h5>Emily R.</h5>
+                    <h6>Marketing Director</h6>
+                </div>
 
-        Client testimonials
+                <div id="testimonial-02">
+                    <img id="t02-img-thomas" src="images/image-thomas.jpg">
+                    <p id="t02-p-thomas">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                    <h5>Thomas S.</h5>
+                    <h6>Chief Operating Officer</h6>
+                </div>
 
-        We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-        Emily R.
-        Marketing Director
+                <div id="testimonial-03">
+                    <img id="t03-img-jennie" src="images/image-jennie.jpg">
+                    <p id="t03-p-jennie">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                    <h5>Jennie F.</h5>
+                    <h6>Business Owner</h6>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-06">
+            <img id="sec06-img01" src="images/desktop/image-gallery-milkbottles.jpg">
+            <img id="sec06-img02" src="images/desktop/image-gallery-orange.jpg">
+            <img id="sec06-img03" src="images/desktop/image-gallery-cone.jpg">
+            <img id="sec06-img04" src="images/desktop/image-gallery-sugarcubes.jpg">
+        </section>
+        
+        <section id="section-07">
+            <img id="sec07-logo" src="images/logo.svg">
 
-        Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-        Thomas S.
-        Chief Operating Officer
+            <div id="sec07-buttons">
+                <button id="sec07-button01">About</button>
+                <button id="sec07-button02">Services</button>
+                <button id="sec07-button03">Projects</button>
+            </div>
 
-        Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-        Jennie F.
-        Business Owner
+            <div id="sec07-socials">
+                <a><img id="sec07-social01" src="images/icon-facebook.svg"></a>
+                <a><img id="sec07-social02" src="images/icon-instagram.svg"></a>
+                <a><img id="sec07-social03" src="images/icon-twitter.svg"></a>
+                <a><img id="sec07-social04" src="images/icon-pinterest.svg"></a>
+            </div>
+        </section>
 
-        About
-        Services
-        Projects
-        Contact
-
-        <div class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-            Coded by <a href="#">Your Name Here</a>.
-        </div>
+        <footer class="attribution">
+            <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/akcumeh" target="_blank">Angel</a>. Compare with <a href="design/desktop-design.jpg" target="_blank">this</a>.</p>
+        </footer>
     </body>
 </html>
