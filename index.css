@@ -81,7 +81,7 @@ nav div#right-menu button#right-menu-item-04:hover {
     transition: 0.25s all;
 }
 
-section#section-01 h1 {
+h1 {
     font-family: "Fraunces", serif;
     font-size: 3.75vw;
     font-weight: 900;
@@ -466,6 +466,7 @@ footer {
     background-color: inherit;
     font-family: "Barlow", sans-serif;
     font-weight: 600;
+    font-size: 1vw;
     text-align: center;
     height: 5vw;
     display: flex;
@@ -492,4 +493,509 @@ footer a:active {
 
 footer a:visited {
     color: red;
+}
+
+
+/* tab view */
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) and (orientation: portrait) {
+    body {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background-color: hsl(26, 100%, 99%);
+    }
+    
+    section {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    section#section-01 {
+        display: inherit;
+        height: auto;
+        flex-direction: inherit;
+        background-image: url(images/desktop/image-header.jpg);
+        background-size: 100vw 55vw;
+        height: 55vw;
+    }
+
+    section#section-01 div#img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        color: hsl(0, 0%, 100%);
+        width: 3vw;
+        margin: auto;
+        transform: translateY(-10vw);
+    }
+
+    section#section-02 {
+        display: inherit;
+        flex-direction: inherit;
+        height: 180vw;
+        width: inherit;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    section#section-02 div#sec02-left{
+        height: 41.6667vw;
+        display: inherit;
+        flex-direction: inherit;
+        padding: 15vw;
+        width: 100vw;
+    }
+
+    section#section-02 div#sec02-left p {
+        width: inherit;
+    }
+
+    section#section-02 div#sec02-right {
+        width: inherit;
+        display: inherit;
+        flex-direction: inherit;
+        height: 90vw;
+    }
+
+    section#section-02 div#sec02-right img {
+        height: inherit;
+        width: inherit;
+    }
+
+    section#section-02 div:nth-child(2) {
+        order: -1;
+    }
+
+}
+
+
+/* mobile view(s) */
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+    body {
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section {
+        width: inherit;
+        margin: 0;
+        display: inherit;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    section#section-01 {
+        height: 135vw;
+        background-image: url(images/mobile/image-header.jpg);
+        background-size: 100vw 140vw;
+        background-repeat: no-repeat;
+        background-position: center -5vw;
+    }
+    
+    nav {
+        justify-content: space-around;
+    }
+    
+    nav div#left-menu {
+        display: inherit;
+        flex-direction: column;
+        align-self: center;
+        padding: 8vw;
+        padding-bottom: 0;
+    }
+
+    nav div#left-menu img {
+        width: 33.333vw;
+        height: 6.667vw;
+    }
+    
+    nav div#right-menu {
+        display: none;
+    }
+
+    section#section-01 div#img-container {
+        transform: translateY(-17.5vw);
+        margin: auto;
+        padding: 0;
+        padding-top: 2.5vw;
+    }
+
+    section#section-01 img#img-arrow {
+        height: 30.6667vw;
+        width: 9vw;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    h1 {
+        font-family: "Fraunces", serif;
+        font-size: 10vw;
+        font-weight: 900;
+        letter-spacing: 1vw;
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+    }
+
+    h2 {
+        font-family: "Fraunces", serif;
+        font-size: 7.5vw;
+        font-weight: 900;
+        letter-spacing: 0.1vw;
+        color: hsl(212, 27%, 19%);
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10.667vw;
+    }
+
+    p {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        font-family: "Barlow", sans-serif;
+        line-height: 2vw;
+    }
+
+    section#section-02 {
+        height: 200vw;
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: flex-start;
+    }
+    
+    section#section-02 div#sec02-left{
+        box-sizing: inherit;
+        height: 110vw;
+        width: 100vw;
+        display: inherit;
+        flex-direction: inherit;
+    }
+
+    section#section-02 div#sec02-left p#sec02-p {
+        width: 77.5vw;
+        height: 36vw;
+        font-size: 4.25vw;
+        line-height: 7.5vw;
+        text-align: center;
+        letter-spacing: 0.1vw;
+    }
+
+    section#section-02 div#sec02-left a#sec02-link {
+        width: max-content;
+        color: hsl(212, 27%, 19%);
+        font-family: "Fraunces", serif;
+        font-size: 4vw;
+        font-weight: 900;
+        margin-top: 11.3333vw;
+        align-self: center;
+        text-decoration: none;
+        box-shadow: inset 0 -0.25vw 0.3vw 0 hsl(49, 100%, 82%), 0 0.25vw 0.3vw 0 hsl(49, 100%, 82%);
+        overflow: hidden;
+    }
+    
+    section#section-02 div#sec02-left a#sec02-link:hover {
+        text-decoration: none;
+        box-shadow: inset 0 -0.25vw 0.3vw 0 hsl(50, 99%, 50%), 0 0.25vw 0.3vw 0 hsl(50, 99%, 50%);
+        overflow: hidden;
+        transition: 0.25s all ease;
+    }
+
+    section#section-02 div#sec02-right {
+        width: inherit;
+        display: inherit;
+        flex-direction: inherit;
+        height: 90vw;
+    }
+
+    section#section-02 div#sec02-right img {
+        height: inherit;
+        width: inherit;
+    }
+
+    section#section-02 div:nth-child(2) {
+        order: -1;
+    }
+
+    section#section-03 {
+        height: 200vw;
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: flex-start;
+    }
+
+    section#section-03 div#sec03-left{
+        width: 100vw;
+        height: 90vw;
+        display: inherit;
+        flex-direction: inherit;
+    }
+
+    section#section-03 div#sec03-left img {
+        height: inherit;
+        width: inherit;
+    }
+
+    section#section-03 div#sec03-right{
+        box-sizing: inherit;
+        height: 110vw;
+        width: 100vw;
+        display: inherit;
+        flex-direction: inherit;
+    }
+
+    section#section-03 div#sec03-right p#sec03-p {
+        width: 77.5vw;
+        height: 36vw;
+        font-size: 4.25vw;
+        line-height: 7.5vw;
+        text-align: center;
+        letter-spacing: 0.1vw;
+    }
+
+    section#section-03 div#sec03-right a#sec03-link {
+        width: max-content;
+        color: hsl(212, 27%, 19%);
+        font-family: "Fraunces", serif;
+        font-size: 4vw;
+        font-weight: 900;
+        margin-top: 11.333vw;
+        align-self: center;
+        text-decoration: none;
+        box-shadow: inset 0 -0.25vw 0.3vw 0 hsl(12, 100%, 91%), 0 0.25vw 0.3vw 0 hsl(12, 100%, 91%);
+        overflow: hidden;
+    }
+    
+    section#section-03 div#sec03-right a#sec03-link:hover {
+        text-decoration: none;
+        box-shadow: inset 0 -0.25vw 0.3vw 0 hsl(7, 99%, 69%), 0 0.25vw 0.3vw 0 hsl(7, 99%, 69%);
+        overflow: hidden;
+        transition: 0.25s all ease;
+    }
+
+    section#section-03 div#sec03-right h2 {
+        font-family: "Fraunces", serif;
+        font-size: 7.5vw;
+        font-weight: 900;
+        color: hsl(212, 27%, 19%);
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10.667vw;
+    }
+
+    section#section-04 {
+        height: 320vw;
+        display: inherit;
+        flex-direction: inherit;
+        justify-content: flex-start;
+    }
+
+    section#section-04 div#sec04-left{
+        box-sizing: inherit;
+        height: 160vw;
+        width: 100vw;
+        display: inherit;
+        flex-direction: inherit;
+        background-image: none;
+        background-image: url(images/mobile/image-graphic-design.jpg);
+        background-size: 100vw 160vw;
+        background-position: center;
+    }
+
+    section#section-04 div#sec04-right{
+        box-sizing: inherit;
+        height: 160vw;
+        width: 100vw;
+        display: inherit;
+        flex-direction: inherit;
+        background-image: none;
+        background-image: url(images/mobile/image-photography.jpg);
+        background-size: 100vw 160vw;
+        background-position: center;
+    }
+
+    h3 {
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        font-size: 7vw;
+    }
+
+    section#section-04 div#sec04-left h3 {
+        margin: auto;
+        margin-top: 108vw;
+        margin-bottom: 0;
+    }
+
+    section#section-04 div#sec04-left p#sec04-p-left{
+        color: hsl(165, 36%, 33%);
+        font-size: 4vw;
+        font-weight: 600;
+        line-height: 7vw;
+        margin: 11.2vw 6.9333vw auto 6.9333vw;
+        text-align: center;
+    }
+
+    section#section-04 div#sec04-right h3 {
+        margin: auto;
+        margin-top: 108vw;
+        margin-bottom: 0;
+    }
+
+    section#section-04 div#sec04-right p#sec04-p-right{
+        color: hsl(198, 85%, 26%);
+        font-size: 4vw;
+        font-weight: 600;
+        line-height: 7vw;
+        margin: 11.2vw 6.9333vw auto 6.9333vw;
+        text-align: center;
+    }
+
+    section#section-05 {
+        height: 336vw;
+    }
+
+    section#section-05 h4 {
+        font-family: "Fraunces", serif;
+        font-weight: 800;
+        font-size: 3.5vw;
+        letter-spacing: 1.25vw;
+        box-sizing: border-box;
+        width: 100vw;
+        margin-top: 18.667vw;
+        margin-bottom: 0;
+    }
+
+    section#section-05 div#testimonials {
+        display: inherit;
+        flex-direction: inherit;
+        box-sizing: border-box;
+        width: 100vw;
+        height: max-content;
+        align-items: center;
+        border: 0;
+        padding: 0;
+    }
+
+    section#section-05 div#testimonials div {
+        display: inherit;
+        flex-direction: inherit;
+        box-sizing: border-box;
+        align-items: inherit;
+        height: 90.667vw;
+        width: 100vw;
+        padding: 10.667vw;
+    }
+
+    section#section-05 div div:last-of-type {
+        box-sizing: initial;
+        margin-top: 10vw;
+    }
+
+    section#section-05 div#testimonials img {
+        width: 19.2vw;
+        height: 19.2vw;
+        border-radius: 10vw;
+    }
+
+    section#section-05 div#testimonials p {
+        color: hsl(213, 9%, 39%);
+        font-size: 4.4vw;
+        font-weight: 600;
+        line-height: 7.5vw;
+        margin-top: 10.6667vw;
+    }
+
+    section#section-05 div#testimonials h5 {
+        color: hsl(212, 27%, 19%);
+        margin-bottom: 0;
+        margin-top: 10vw;
+        margin-bottom: 0;
+        font-size: 5vw;
+    }
+
+    section#section-05 div#testimonials h6 {
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        font-size: 3.25vw;
+        margin-top: 4.2667vw;
+        margin-bottom: 17.333vw;
+        padding: 0;
+        color: hsl(210, 4%, 67%);
+    }
+
+    section#section-06 {
+        height: 110vw;
+        display: inherit;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        width: 100vw;
+    }
+
+    section#section-06 img {
+        width: 50vw;
+        height: 55vw;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    section#section-07 {
+        height: max-content;
+        flex-direction: inherit;
+    }
+
+    section#section-07 div {
+        width: max-content;
+        height: max-content;
+        margin: 0 !important;
+        border: 0;
+        padding: 0;
+        align-self: center;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+
+    section#section-07 img#sec07-logo {
+        width: 46vw;
+        height: 9.3333vw;
+        margin-top: 17.3333vw;
+    }
+
+    section#section-07 div button {
+        font-size: 4.5vw;
+        margin-top: 12.2667vw;
+        margin-bottom: 24.5333vw;
+        padding: 2vw 8vw;
+    }
+
+    section#section-07 div#sec07-socials img {
+        width: 5.3333vw;
+        height: 5.3333vw;
+        margin: 3.83333vw;
+        margin-bottom: 21.3333vw;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    footer p {
+        font-size: 2.5vw;
+        line-height: 5vw;
+        height: 10vw;
+        box-sizing: border-box;
+        padding: 10vw;
+    }
 }
