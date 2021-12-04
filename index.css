@@ -586,7 +586,6 @@ footer a:visited {
         width: 100vw;
         display: flex;
         flex-direction: column;
-        box-sizing: border-box;
     }
     
     section {
@@ -863,7 +862,7 @@ footer a:visited {
     }
 
     section#section-05 {
-        height: 336vw;
+        height: 345vw;
     }
 
     section#section-05 h4 {
@@ -898,8 +897,8 @@ footer a:visited {
         padding: 10.667vw;
     }
 
-    section#section-05 div div:last-of-type {
-        box-sizing: initial;
+    section#section-05 div div{
+        box-sizing: inherit;
         margin-top: 10vw;
     }
 
