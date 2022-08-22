@@ -1,10 +1,11 @@
-body {
+body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: hsl(26, 100%, 99%);
     width: 100vw;
-    box-sizing: border-box;
+    zoom: 1;
 }
-
 section {
     width: inherit;
 }
@@ -122,7 +123,7 @@ section#section-02 {
 section#section-02 div#sec02-left {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 50%;
     height: inherit;
     padding: 11.1vw;
     padding-top: 9.75vw;
@@ -347,6 +348,9 @@ section#section-05 div#testimonials {
 section#section-05 div#testimonials div {
     width: 23vw;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 section#section-05 div#testimonials img {
@@ -355,6 +359,7 @@ section#section-05 div#testimonials img {
     border-radius: 2.5vw;
     margin: 0;
     margin-bottom: 4.1vw;
+    align-self: center;
 }
 
 section#section-05 div#testimonials p {
@@ -386,7 +391,10 @@ h6 {
     padding: 0;
     color: hsl(210, 4%, 67%);
 }
-
+/* .end{
+    display: flex;
+    flex-direction: column;
+} */
 section#section-06 {
     height: 31.1111vw;
     display: flex;
@@ -395,7 +403,7 @@ section#section-06 {
 }
 
 section#section-06 img {
-    width: 25vw;
+    width: 25%;
     height: inherit;
 }
 
